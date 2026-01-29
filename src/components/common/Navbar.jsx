@@ -1,7 +1,7 @@
 import { RiMenu2Fill } from "react-icons/ri";
 import { RiShoppingBag4Fill } from "react-icons/ri";
 import { RiSearch2Line } from "react-icons/ri";
-import MenuDrawer from "./Menu/MenuDrawer";
+import MenuDrawer from "./menu/MenuDrawer";
 import { useState } from "react";
 function Navbar() {
   const [menuBar,setMenuBar]=useState(false)
